@@ -1712,7 +1712,6 @@ CreateGui = function()
 end
 local D_E_X = CreateGui()
 D_E_X.Parent = game.CoreGui
-D_E_X.name = tostring(math.random())
 spawn(function()
 	local Gui = D_E_X
 
